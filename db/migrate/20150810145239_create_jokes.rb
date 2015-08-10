@@ -2,9 +2,8 @@ class CreateJokes < ActiveRecord::Migration
   def change
     create_table :jokes do |t|
 
-      t.string :quip
+      t.text :quip
       t.string :comedian
-
       
 
       t.timestamps
